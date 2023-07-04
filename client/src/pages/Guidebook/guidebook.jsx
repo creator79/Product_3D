@@ -1,9 +1,9 @@
 import React from "react";
-import guide from "../../assets/image/guide_group.png";
-import guide1 from "../../assets/image/guide1.png";
-import guide3 from "../../assets/image/guide3.png";
-import guide2 from "../../assets/image/guide2.png";
-import guide6 from "../../assets/image/guide6.jpg";
+import guide from "../.././assets/image/guide_group.webp";
+import guide1 from "../.././assets/image/guide1.webp";
+import guide3 from "../.././assets/image/guide3.webp";
+import guide2 from "../.././assets/image/guide2.webp";
+import guide6 from "../.././assets/image/guide6.webp";
 
 function GuideBook() {
   return (
@@ -20,7 +20,7 @@ function GuideBook() {
       </div>
       <img
           src={guide1}
-          className="animate-spin-slow mx-auto lg:ml-[140vh] mt-[-960px] max-w-full lg:max-h-[300px] lg:mt-[-650px]"
+          className="animate-spin-slow mx-auto lg:ml-[160vh] mb-[15vh] ml-[1h] max-w-full lg:max-h-[300px] lg:mt-[-590px]"
           alt="Guide 1"
         />
       <div className="grid justify-center">
